@@ -1,9 +1,9 @@
-// src/components/__tests__/Calendar.test.jsx
+
 import { render, screen } from "@testing-library/react";
 import Calendar from "../Calendar";
 
 test("renders October 2022 with 3rd highlighted", () => {
-  render(<Calendar date={new Date(2022, 9, 3)} />); // month is 0-based
+  render(<Calendar date={new Date(2022, 9, 3)} />);
 
   // header
   expect(screen.getByText("October 2022")).toBeInTheDocument();
