@@ -1,0 +1,44 @@
+/* src/components/Calendar.css */
+.calendar {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 320px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  width: 14.28%;
+  height: 44px;
+  text-align: center;
+  border: 1px solid #e9ecef;
+}
+
+th {
+  background: #f8f9fa;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+td.highlight {
+  background: #ffeb3b;
+  font-weight: bold;
+  color: #212529;
+}
